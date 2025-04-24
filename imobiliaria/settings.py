@@ -44,6 +44,7 @@ INSTALLED_APPS = [
 INSTALLED_APPS +=[
     'home',
     'visita',
+    'clientes',
 ]
 
 INSTALLED_APPS += [

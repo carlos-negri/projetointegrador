@@ -6,7 +6,7 @@
                     <img src="{% static 'img/logo.png'%}" width="200" height="200">
                 </a>
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">Início</a>
+                    <a class="navbar-brand" href="{% url 'index' %}">Início</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent"
                         aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -42,8 +42,8 @@
                                     Clientes
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Cadastrar Cliente</a></li>
-                                    <li><a class="dropdown-item" href="#">Listar Clientes</a></li>
+                                    <li><a class="dropdown-item" href="{% url 'cliente_adicionar' %}">Cadastrar Cliente</a></li>
+                                    <li><a class="dropdown-item" href="{% url 'clientes' %}">Listar Clientes</a></li>
                                 </ul>
                             </li>
 
