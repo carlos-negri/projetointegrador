@@ -2,5 +2,5 @@ from django.urls import path
 from .views import IndexView
 
 urlpatterns = [
-    path('cadastroVisita', IndexView.as_view(), name='cadastroVisita'),
+    path('visitas', IndexView.as_view(), name='visitas'),
 ]
